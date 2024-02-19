@@ -26,7 +26,7 @@ void main() {
    */
    const myList = [10, 3, 5, 4];
    final taskList = ['Sleeping', 'doing math', 'writing pom', ''];
-   taskList[2] = 'Doing sex';
+   taskList[2] = 'Doing fun';
    taskList[3] = 'doing exe';//output: [Sleeping, doing math, Doing sex] // modifiable at compile time.
    taskList.add('programing');
    // myList[3] = 3; // output: occur en error // Can' t modifiable.

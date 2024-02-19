@@ -22,7 +22,7 @@ void main(){
 
   // map using Map constractor
 
-  var indastryInfo = Map();
+  var indastryInfo = {};
 
   indastryInfo['name'] = 'PLC automation';
   indastryInfo['Ested'] = 1996;
