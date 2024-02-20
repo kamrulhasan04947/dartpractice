@@ -38,29 +38,29 @@ void main(){
 
   // practical example
   //only if statement
-  int marks = 80;
-  if(marks >= 80){
-    print('you got A+');
-  }
-
-  // Using  if else statement
-
-  int earnMarks = 79;
-  if(earnMarks>= 80){
-    print('Grade point is : A+');
-  }else{
-    print('Failed');
-  }
+  // int marks = 80;
+  // if(marks >= 80){
+  //   print('you got A+');
+  // }
+  //
+  // // Using  if else statement
+  //
+  // int earnMarks = 79;
+  // if(earnMarks>= 80){
+  //   print('Grade point is : A+');
+  // }else{
+  //   print('Failed');
+  // }
 
   // Using if else leader
 
-  if(earnMarks >= 80){
-    print('you Got A+');
-  }else if(earnMarks >=70){
-    print('you got A');
-  }else{
-    print('you failed');
-  }
+  // if(earnMarks >= 80){
+  //   print('you Got A+');
+  // }else if(earnMarks >=70){
+  //   print('you got A');
+  // }else{
+  //   print('you failed');
+  // }
 
 
   /*
@@ -71,16 +71,16 @@ void main(){
 
    // Syntactical explanation with example
 
-   int gradMarks = 2;
+   // int gradMarks = 2;
 
-   switch(gradMarks){
-     case 80:
-       print('A+');
-       break;
-     default:
-       print('failed');
-       break;
-   }
+   // switch(gradMarks){
+   //   case 80:
+   //     print('A+');
+   //     break;
+   //   default:
+   //     print('failed');
+   //     break;
+   // }
 
    // Loops
 
@@ -114,15 +114,57 @@ void main(){
 
    // break and continue statement in for loop // Jump statement
 
-   for(int i=0; i<100; i++){
+   // for(int i=0; i<100; i++){
+   //
+   //   if(i == 0){
+   //     continue;
+   //   }
+   //
+   //   if(i == 50){
+   //     break;
+   //   }
+   //
+   //   print(i);
+   //
+   // }
 
-     if(i == 0){
-       continue;
-     }
-     if()
+  // For in Loop
+
+  /*
+       * The for in loop is slightly different from for loop.
+       * It only takes dart object or expression as an iterator and
+       * iterate the element one at a time
+     */
+
+  //ex3
+   // for in loop in list
+  // List<String> students = ['Raky', 'Saki', 'Maki', 'Baki'];
+  //
+  // for(String student in students){
+  //   print(student);
+  // }
+  // for in loop in Map
+  // Map<String, dynamic> employeeInfo = {
+  //   'name': 'Hasan',
+  //   'age': 23,
+  //   'Salary': 50000.00,
+  // };
+
+  // for(dynamic item in employeeInfo.values){
+  //   print(item);
+  // }
+
+  // for in loop in Set
+
+  Set<String> hardwares = {'RAM', 'SSD', 'Motherboard', 'Power supply', 'CMOS', 'Casing'};
+
+  for( String item in hardwares){
+    print(item);
+  }
+
+  // for loop in Json list
 
 
-   }
 
 
 }
