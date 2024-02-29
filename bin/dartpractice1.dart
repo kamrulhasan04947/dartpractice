@@ -17,6 +17,7 @@
 // import 'map_prc.dart';
 
 void main(){
+   List<String> list = ['hello', 'wel', 'com'];
 
-  print('hello dart');
+   print(list);
 }

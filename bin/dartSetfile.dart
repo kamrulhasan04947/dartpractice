@@ -44,4 +44,18 @@ void main(){
    // print(infoRepository.single); // error occur
 
 
+   var setList = {'rahim', 'karim', 12, true};
+
+   print(setList);
+
+   setList.remove(setList.elementAt(0));
+
+   for(var i in setList){
+     print(i);
+   }
+
+   for(var i = 0; i < setList.length; i++){
+     print(setList.elementAtOrNull(i));
+   }
+
 }

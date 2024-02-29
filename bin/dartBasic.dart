@@ -275,4 +275,11 @@ void main() {
   // length = 10.3 // can,t be re assigned to this const
   // run time
   final length1 = 3.4;
+
+
+
+  //type casting
+
+  String nuim  = '123f';
+  print(int.tryParse(nuim));
 }

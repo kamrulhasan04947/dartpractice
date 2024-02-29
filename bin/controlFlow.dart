@@ -1,170 +1,42 @@
-void main(){
 
+
+void main(){
   /*
     * Dart Control flow statement
-      * Dart control flow statement are use to control flow of dart program
-      * Control flow statement mainly characterize in three flowing ways
-        * Decision making statement
-        * Loping statement
-        * jump statement
-  * */
-
-  /*
-    *Decision Making statement:
-      *Decision Making statement allows us to determine which statement to executed based on test
-       expression at runtime.
-       * Dart provide flowing type of decision making statement:
-        *if statement :
-         * if statement allows to use to a block of code  execute when the given condition returns true;
-         if(condition){statement to execute};
-        * if else statement:
-          * if statement returns true when the given condition returns true.
-            if the given condition is false the else block is execute.
-          if(condition){
-            executable statement;
-          }else{
-            another executable statement;
-          }
-        * if else if statement:
-          // if one executable condition is true then only it's execution body will execute. Others are not execute.
-          if(condition){
-            executable statement;
-          } else if(condition){
-            other executable statement;
-          } else{
-            another executable statement;
-          }
-    */
-
-  // practical example
-  //only if statement
-  // int marks = 80;
-  // if(marks >= 80){
-  //   print('you got A+');
-  // }
-  //
-  // // Using  if else statement
-  //
-  // int earnMarks = 79;
-  // if(earnMarks>= 80){
-  //   print('Grade point is : A+');
-  // }else{
-  //   print('Failed');
-  // }
-
-  // Using if else leader
-
-  // if(earnMarks >= 80){
-  //   print('you Got A+');
-  // }else if(earnMarks >=70){
-  //   print('you got A');
-  // }else{
-  //   print('you failed');
-  // }
-
-
-  /*
-     * Switch case statement
-       * The switch case statement is avoid the long chain unlike if else statement.
-       * it is the simplified form of if else leader.
-  */
-
-   // Syntactical explanation with example
-
-   // int gradMarks = 2;
-
-   // switch(gradMarks){
-   //   case 80:
-   //     print('A+');
-   //     break;
-   //   default:
-   //     print('failed');
-   //     break;
-   // }
-
-   // Loops
-
-   /*
-      * for loop:
-        * The for loop is used when we know how many times a block of code will execute.
-        * Syn text :
-
-           for(initial variable, condition, increment ++ or decrement --){
-                 // statement body
-           }
+      *Decision making Statement.
+      * Looping Statement
+      * Jump statement
    */
 
+   /*
+     * Dart Decision making statement :
+       *It allows us to determine which statement to execute based on the test expression at
+        runtime.
+        * Dart provides flowing type of decision making statement
 
-  //ex1
+          * if statement // if(condition){ statement};
+          * if else statement // if(condition){statement} else{ other statement};
+          * if else if statement // if(condition){statement} else if(condition){another statement} else{ other statement};
+          * switch case statement // switch(condition) { case condition-result : statement; break; default: statement};
+ 
+          *
 
-   // for(int i = 0 ; i<10; i++){
-   //   print(i);
-   // }
-   //
-   // print('\n');
-
-   //ex2
-
-   // for(int j=9; j > 0; j--){
-   //   print('$j');
-   // }
-   //
-   // print('\n');
+    */
 
 
-   // break and continue statement in for loop // Jump statement
 
-   // for(int i=0; i<100; i++){
-   //
-   //   if(i == 0){
-   //     continue;
-   //   }
-   //
-   //   if(i == 50){
-   //     break;
-   //   }
-   //
-   //   print(i);
-   //
-   // }
-
-  // For in Loop
-
-  /*
-       * The for in loop is slightly different from for loop.
-       * It only takes dart object or expression as an iterator and
-       * iterate the element one at a time
-     */
-
-  //ex3
-   // for in loop in list
-  // List<String> students = ['Raky', 'Saki', 'Maki', 'Baki'];
-  //
-  // for(String student in students){
-  //   print(student);
-  // }
-  // for in loop in Map
-  // Map<String, dynamic> employeeInfo = {
-  //   'name': 'Hasan',
-  //   'age': 23,
-  //   'Salary': 50000.00,
-  // };
-
-  // for(dynamic item in employeeInfo.values){
-  //   print(item);
-  // }
-
-  // for in loop in Set
-
-  Set<String> hardwares = {'RAM', 'SSD', 'Motherboard', 'Power supply', 'CMOS', 'Casing'};
-
-  for( String item in hardwares){
-    print(item);
-  }
-
-  // for loop in Json list
+  var x = 10;
+  var y = 3 ;
+  print(x/y);
 
 
+  // for in loop
+
+  // List<String> names = ['Kadir', 'Jakir', 'Hasan', 'dayna', 'giraj'];
+
+  const  String  name = 'hasan';
+
+  print(name);
 
 
 }

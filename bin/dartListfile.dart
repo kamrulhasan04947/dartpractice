@@ -95,4 +95,17 @@ void main() {
    print('removed list : $percentageValue');
    // Accessing list element
     print(percentageValue.elementAt(3));
+
+
+  var list = [1,2 ,3];
+
+  var listCopy = [...list];
+  listCopy.add(3);
+  print(list);
+  print(listCopy);
+
+
+
+  List<int> arks = [90, 50, 60, 40, 46, 60, 32];
+
 }
